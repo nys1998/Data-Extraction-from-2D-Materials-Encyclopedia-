@@ -1,6 +1,6 @@
 import csv
 
-with open('large.csv','w') as f1:
+with open('Data_2DMat.csv','w') as f1:
     writer=csv.writer(f1, delimiter=',',lineterminator='\n',)
     f = open("test.txt", "r")
     header = ["Formula"] + ["Space Group"] + ["Band Gap"] + ["a"] +["b"] +["c"]
